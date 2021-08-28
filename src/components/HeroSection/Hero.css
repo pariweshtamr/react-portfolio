@@ -1,0 +1,49 @@
+:root {
+  --main-color: #c3073f;
+  --main-color2: #0d0d0d;
+  --grey: #4e4e50;
+  --secondary-color: #6f2232;
+  --secondary-color2: #950740;
+  --white: #f0f8ff;
+  --alpha-25: rgba(255, 255, 255, 0.25);
+  --alpha-40: rgba(255, 255, 255, 0.4);
+}
+
+.icons i {
+  color: var(--white);
+  padding: 15px 15px 15px 0;
+  cursor: pointer;
+}
+.fb:hover {
+  background: #3b5998;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ig:hover {
+  background: -webkit-linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.linked:hover {
+  background: #2867b2;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.git:hover {
+  background: #fff;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tweet:hover {
+  background: #1da1f2;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
